@@ -20,7 +20,7 @@ Open a PowerShell window, navigate to the desired directory, for example:
 
 Then, run the following command to download the script:
 
-    (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/yourusername/NoTrackWin/main/NoTrackWin.ps1') | Out-File .\NoTrackWin.ps1 -Force
+    (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/policias/NoTrackWin/main/NoTrackWin.ps1') | Out-File .\NoTrackWin.ps1 -Force
 
 After downloading, always review the script before executing it to ensure it aligns with your privacy preferences:
 
